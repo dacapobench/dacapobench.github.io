@@ -1,0 +1,13 @@
+image: anucecsit/gitlab-pages:1.0.1
+
+page-deploy:
+  tags:
+  - Pages
+  stage: deploy
+  script:
+    - export LC_ALL="en_US.UTF-8"
+    - export LANG="en_US.UTF-8"
+    - bundle install
+    - bundle exec jekyll build -d /srv/gitlab-ce-pages/staging/$CI_BUILD_ID/$CI_BUILD_REF_NAME/$CI_PROJECT_PATH
+  only:
+    - master

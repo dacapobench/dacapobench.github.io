@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Steve Blackburn
-email: steve.blackburn@anu.edu.au
-description: Steve Blackburn, computer science professor at the Australian National University.
+title: DaCapo Benchmarks
+description: The DaCapo Benchmark Suite
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://users.cecs.anu.edu.au" # the base hostname & protocol for your site, e.g. http://example.com
-name: "Steve Blackburn"
-twitter_username: stevemblackburn
-github_username:  steveblackburn
+url: "http://dacapobench.org" # the base hostname & protocol for your site, e.g. http://example.com
+name: "DaCapo Benchmarks"
+twitter_username: dacapobench
+github_username:  dacapobench
 
 # need to implement --- orcid_id: 0000-0001-6632-6001  # https://orcid.org/0000-0001-6632-6001
 
@@ -51,8 +50,8 @@ defaults:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
+exclude:
+    - images-src
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/

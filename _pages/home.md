@@ -7,8 +7,25 @@ header:
   author_profile: true
 ---
 
+
+
+[![download](assets/images/sfdownload.png)](https://sourceforge.net/projects/dacapobench/files/latest/download)
+ [![github](assets/images/github.png)](https://github.com/dacapobench)
+
+This benchmark suite is intended as a tool for Java benchmarking by the programming language, memory management and computer architecture communities.  It consists of a set of open source, real world applications with non-trivial memory loads.
+
+The initial release of the suite was the culmination of over five years work at eight institutions, as part of the DaCapo research project, which was funded by a National Science Foundation ITR Grant, CCR-0085792.   A further three years of development went gone into the 2009 release.  That work was been funded by the ANU, the Australian Research Council and a generous donation from Intel.  Since then, development has continued at [ANU with support from Oracle and Google](#currentsponsors).
+
+Our suite evolves to maintain its relevance. It is therefore essential that you **cite the version number** associated with the release in any use of the benchmark, and as a courtesy to the developers, we ask that you **please [cite](cite.txt) the paper** from OOPSLA 2006 describing the suite:
+
+Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur, R., Diwan, A., Feinberg, D., Frampton, D., Guyer, S. Z., Hirzel, M., Hosking, A., Jump, M., Lee, H., Moss, J. E. B., Phansalkar, A., Stefanovic, D., VanDrunen, T., von Dincklage, D., and Wiedermann, B. **The DaCapo Benchmarks: Java Benchmarking Development and Analysis**, *OOPSLA '06: Proceedings of the 21st annual ACM SIGPLAN conference on Object-Oriented Programing, Systems, Languages, and Applications, (Portland, OR, USA, October 22-26, 2006)* ([pdf](assets/pdf/dacapo-oopsla-2006.pdf), [bibtex](cite.txt)).
+
 # News
 
+* **May 10, 2018** An uncalibrated full referesh of every benchmark in the suite is [now available](https://github.com/dacapobench/dacapobench/commit/2baec49bcc9a1dff3acc4e710e00535126166cfd) on github.   This is *not* a release, yet.   Before we release we need to fully calibrate each workload, add new workloads, and assess the whole suite.   We're working on that right now.   In the meantime, we *encourage* you to take a look and give us feedback (on [github](https://github.com/dacapobench/dacapobench/issues), or the [mailing list](https://sourceforge.net/p/dacapobench/mailman/)).
+* **Jan 12, 2018** We made a [maintenance release](https://sourceforge.net/projects/dacapobench/files/9.12-bach-MR1/) of the benchmark suite. This is the first full release in a number of years, and fixes a handful of issues with the suite, without changing the existing benchmarks. Major changes are listed [here](https://github.com/dacapobench/dacapobench/blob/master/benchmarks/RELEASE_NOTES.txt). In short, the source distribution should now build correctly (broken URLs fixed), the suite should run fine on Java 8 JVMs (with the exception of tomcat which has an underlying problem [unrelated to DaCapo](https://bugs.openjdk.java.net/browse/JDK-8155588), and we have added a new benchmark, lusearch-fix, which is identical to lusearch except that a one-line [bug fix](https://issues.apache.org/jira/browse/LUCENE-1800) to lucene has been applied (we recommend lusearch-fix over lusearch). The issue with lusearch is described in [this paper](https://dl.acm.org/citation.cfm?id=2048092).
+
+<!--
 # Benchmarks
 
 Foo bar 
@@ -18,5 +35,26 @@ Foo bar
 Bar bar
 
 # Publications
+-->
 
 # Sponsors
+
+## <a name="currentsponsors"></a> Current Sponsors and Contributors
+
+![ANU](assets/images/logos/anu-200x69.jpg)
+
+![Oracle](assets/images/logos/oracle-200x51.png)![Google](assets/images/logos/google-200x68.png)
+
+## <a name="pastsponsors"></a> Past Sponsors and Contributors
+
+![ANU](assets/images/logos/anu-100x35.jpg)
+![U Colorado](assets/images/logos/colorado-100x20.png)
+![Purdue U.](assets/images/logos/purdue-100x35.png)
+![U. Texas](assets/images/logos/texas-100x29.png)
+![U. Mass](assets/images/logos/umass-100x40.png)
+![UNM](assets/images/logos/unm-100x21.png)
+
+![IBM](assets/images/logos/ibm-100x40.png)
+![Intel](assets/images/logos/intel-100x66.png)
+
+![ARC](assets/images/logos/arc-100x61.jpg)![NSF](assets/images/logos/nsf-100x100.png)

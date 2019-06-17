@@ -22,7 +22,7 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
 
 # News
 
-* **June 16, 2019** After two years of work, we have started making evaluation snapshots of our upcoming release [available](https://sourceforge.net/projects/dacapobench/files/evaluation/).
+* **June 17, 2019** After two years of work, we have started making evaluation snapshots of our upcoming release [available](https://sourceforge.net/projects/dacapobench/files/evaluation/).
   * Seven diverse and completely new benchmarks: [biojava](https://biojava.org), [cassandra](http://cassandra.apache.org), [graphchi](https://github.com/GraphChi/graphchi-java), [h2o](https://github.com/h2oai/h2o-3), [jme](http://jmonkeyengine.org), [kafka](https://kafka.apache.org), and [zxing](https://github.com/zxing/zxing).
   * A complete overhaul of the trade benchmarks, replacing geronimo with [wildfly](https://wildfly.org).
   * Full updates of all existing benchmarks, bringing them up to date with latest stable versions.

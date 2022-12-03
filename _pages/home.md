@@ -22,6 +22,14 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
 
 # News
 
+* **December 1, 2022** Nearly [1500 commits](https://github.com/dacapobench/dacapobench/tree/dev-chopin) after starting on this release, we look forward to making a release candidate in the coming weeks (we are finalizing details of hosting for this much larger release, which at 6GB is too large to be hosted on github).  The release candidates will include:
+  * New latency metrics, capturing user-experienced tail latencies for eight request-based workloads and jme, a rendering workload.
+  * Integrated benchmark characterization metrics which capture defining attributes of each workload.
+  * Eight new benchmarks: [biojava](https://biojava.org), [cassandra](http://cassandra.apache.org), [graphchi](https://github.com/GraphChi/graphchi-java), [h2o](https://github.com/h2oai/h2o-3), [jme](http://jmonkeyengine.org), [kafka](https://kafka.apache.org), [spring](https://spring.io/projects/spring-boot) and [zxing](https://github.com/zxing/zxing).
+  * A complete overhaul of the trade benchmarks, replacing geronimo with [wildfly](https://wildfly.org).
+  * Full updates of all existing benchmarks, bringing them up to date with latest stable versions.
+ As always, you can build the suite from source (using the [dev-chopin branch](https://github.com/dacapobench/dacapobench/tree/dev-chopin)), and we'll soon have release candidates available for download.
+
 * **June 17, 2019** After two years of work, we have started making evaluation snapshots of our upcoming release [available](https://sourceforge.net/projects/dacapobench/files/evaluation/).
   * Seven diverse and completely new benchmarks: [biojava](https://biojava.org), [cassandra](http://cassandra.apache.org), [graphchi](https://github.com/GraphChi/graphchi-java), [h2o](https://github.com/h2oai/h2o-3), [jme](http://jmonkeyengine.org), [kafka](https://kafka.apache.org), and [zxing](https://github.com/zxing/zxing).
   * A complete overhaul of the trade benchmarks, replacing geronimo with [wildfly](https://wildfly.org).

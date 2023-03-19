@@ -4,7 +4,7 @@ permalink: /
 author: DaCapo
 header:
   image: "assets/images/banner-2560x600.png"
-  author_profile: true
+author_profile: false
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /
+permalink: /download
 author: DaCapo
 header:
   image: "assets/images/banner-2560x600.png"

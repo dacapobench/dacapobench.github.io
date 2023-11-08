@@ -7,14 +7,11 @@ header:
 author_profile: false
 ---
 
-
-
-[![download](assets/images/sfdownload.png)](https://sourceforge.net/projects/dacapobench/files/latest/download)
- [![github](assets/images/github.png)](https://github.com/dacapobench)
+[![github](assets/images/github.png)](https://github.com/dacapobench)
 
 This benchmark suite is intended as a tool for Java benchmarking by the programming language, memory management and computer architecture communities.  It consists of a set of open source, real world applications with non-trivial memory loads.
 
-The initial release of the suite was the culmination of over five years work at eight institutions, as part of the DaCapo research project, which was funded by a National Science Foundation ITR Grant, CCR-0085792.   A further three years of development went gone into the 2009 release.  That work was been funded by the ANU, the Australian Research Council and a generous donation from Intel.  Since then, development has continued at [ANU with support from Oracle and Google](#currentsponsors).
+The initial release of the suite was the culmination of over five years work at eight institutions, as part of the DaCapo research project, which was funded by a National Science Foundation ITR Grant, CCR-0085792.   A further three years of development went into the 2009 release.  The third release was took a further fourteen years. That work was been funded by the ANU, the Australian Research Council and a generous donation from Intel.  Since then, development has continued at [ANU with support from Oracle and Google](#currentsponsors).
 
 Our suite evolves to maintain its relevance. It is therefore essential that you **cite the version number** associated with the release in any use of the benchmark, and as a courtesy to the developers, we ask that you **please [cite](cite.txt) the paper** from OOPSLA 2006 describing the suite:
 

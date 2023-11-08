@@ -22,6 +22,18 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
 
 # News
 
+* **November 8, 2023**  14 years since our last major release, we are very pleased to announced [the release of dacapo-23.11-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-chopin).
+
+  The release includes:
+  * New latency metrics, capturing user-experienced tail latencies for eight request-based workloads and jme, a rendering workload.
+  * Integrated benchmark characterization metrics which capture defining attributes of each workload.
+  * Eight new benchmarks: [biojava](https://biojava.org), [cassandra](http://cassandra.apache.org), [graphchi](https://github.com/GraphChi/graphchi-java), [h2o](https://github.com/h2oai/h2o-3), [jme](http://jmonkeyengine.org), [kafka](https://kafka.apache.org), [spring](https://spring.io/projects/spring-boot) and [zxing](https://github.com/zxing/zxing).
+  * A complete overhaul of the trade benchmarks, replacing geronimo with [wildfly](https://wildfly.org).
+  * Full updates of all existing benchmarks, bringing them up to date with latest stable versions.
+
+
+<!--
+
 * **December 1, 2022** Nearly [1500 commits](https://github.com/dacapobench/dacapobench/tree/dev-chopin) after starting on this release, we look forward to making a release candidate in the coming weeks (we are finalizing details of hosting for this much larger release, which at 6GB is too large to be hosted on github).  The release candidates will include:
   * New latency metrics, capturing user-experienced tail latencies for eight request-based workloads and jme, a rendering workload.
   * Integrated benchmark characterization metrics which capture defining attributes of each workload.
@@ -29,7 +41,8 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
   * A complete overhaul of the trade benchmarks, replacing geronimo with [wildfly](https://wildfly.org).
   * Full updates of all existing benchmarks, bringing them up to date with latest stable versions.
  As always, you can build the suite from source (using the [dev-chopin branch](https://github.com/dacapobench/dacapobench/tree/dev-chopin)), and we'll soon have release candidates available for download.
-
+-->
+<!--
 * **June 17, 2019** After two years of work, we have started making evaluation snapshots of our upcoming release [available](https://sourceforge.net/projects/dacapobench/files/evaluation/).
   * Seven diverse and completely new benchmarks: [biojava](https://biojava.org), [cassandra](http://cassandra.apache.org), [graphchi](https://github.com/GraphChi/graphchi-java), [h2o](https://github.com/h2oai/h2o-3), [jme](http://jmonkeyengine.org), [kafka](https://kafka.apache.org), and [zxing](https://github.com/zxing/zxing).
   * A complete overhaul of the trade benchmarks, replacing geronimo with [wildfly](https://wildfly.org).
@@ -39,7 +52,7 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
   The suite is not fully calibrated yet, we are yet to cull some of the older benchmarks, and we are still making a number of refinements to the harness and build process.   However, we are looking forward to community feedback on the snapshots of the suite.  We will use the feedback to shape the suite's final composition.   We hope to have the suite ready in Q3 2019.   Please use [github](https://github.com/dacapobench/dacapobench) to file bug reports or contribute fixes or improvements, or share your feedback via  the [mailing list](https://sourceforge.net/p/dacapobench/mailman/).
 * **May 10, 2018** An uncalibrated full referesh of every benchmark in the suite is [now available](https://github.com/dacapobench/dacapobench/commit/2baec49bcc9a1dff3acc4e710e00535126166cfd) on github.   This is *not* a release, yet.   Before we release we need to fully calibrate each workload, add new workloads, and assess the whole suite.   We're working on that right now.   In the meantime, we *encourage* you to take a look and give us feedback (on [github](https://github.com/dacapobench/dacapobench/issues), or the [mailing list](https://sourceforge.net/p/dacapobench/mailman/)).
 * **Jan 12, 2018** We made a [maintenance release](https://sourceforge.net/projects/dacapobench/files/9.12-bach-MR1/) of the benchmark suite. This is the first full release in a number of years, and fixes a handful of issues with the suite, without changing the existing benchmarks. Major changes are listed [here](https://github.com/dacapobench/dacapobench/blob/master/benchmarks/RELEASE_NOTES.txt). In short, the source distribution should now build correctly (broken URLs fixed), the suite should run fine on Java 8 JVMs (with the exception of tomcat which has an underlying problem [unrelated to DaCapo](https://bugs.openjdk.java.net/browse/JDK-8155588), and we have added a new benchmark, lusearch-fix, which is identical to lusearch except that a one-line [bug fix](https://issues.apache.org/jira/browse/LUCENE-1800) to lucene has been applied (we recommend lusearch-fix over lusearch). The issue with lusearch is described in [this paper](https://dl.acm.org/citation.cfm?id=2048092).
-
+-->
 <!--
 # Benchmarks
 

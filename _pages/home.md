@@ -19,6 +19,20 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
 
 # News
 
+* **November 30, 2024**  We are very pleased to announced [a maintenance release, dacapo-23.11-MR1-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-MR1-chopin).
+
+  The maintenance release includes:
+  * Standalone launcher jars in support of AOT systems such as Graal NativeImage.
+  * New metrics for request-based workloads.
+  * Many additions to the nominal statistics, plus comprehensive statistics added to the release folder, `dacapo-23.11-MR1-chopin/stats`.
+  As a maintenance release, we avoid modifying workloads wherever possible. The selection of benchmarks and their versions are *unchanged*. The following bug fixes were made to benchmarks:
+  * Incorportate upstream h2 bug [h2database/h2database#4125](https://github.com/h2database/h2database/pull/4125), affecting `h2`, `spring`, `tradebeans`, and `tradesoap` ([#309](https://github.com/dacapobench/dacapobench/pull/309)).
+  * Populate database in prepare phase for tradebeans and tradesoap ([#304](https://github.com/dacapobench/dacapobench/pull/304)).
+  * Disable logging for YCSB client in `cassandra` ([#272](https://github.com/dacapobench/dacapobench/issues/272)).
+  * Reorder key loop nest for `lusearch` ([#264](https://github.com/dacapobench/dacapobench/issues/264)).
+  * Fix a race condition in `sunflow` ([#258](https://github.com/dacapobench/dacapobench/issues/258)).
+  See the [RELEASE NOTES](https://github.com/dacapobench/dacapobench/blob/47b76675b64711bac22e75fa106fe1c6652b3170/benchmarks/RELEASE_NOTES.md) for more information.
+
 * **November 8, 2023**  14 years since our last major release, we are very pleased to announced [the release of dacapo-23.11-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-chopin).
 
   The release includes:

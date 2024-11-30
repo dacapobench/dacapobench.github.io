@@ -19,7 +19,7 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
 
 # News
 
-* **November 30, 2024**  We are very pleased to announced [a maintenance release, dacapo-23.11-MR1-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-MR1-chopin).
+* **November 30, 2024**  We are very pleased to announce a maintenance release, [dacapo-23.11-MR1-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-MR1-chopin).
 
   The maintenance release includes:
   * Standalone launcher jars in support of AOT systems such as Graal NativeImage.
@@ -35,7 +35,7 @@ Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur
 
   See the [RELEASE NOTES](https://github.com/dacapobench/dacapobench/blob/47b76675b64711bac22e75fa106fe1c6652b3170/benchmarks/RELEASE_NOTES.md) for more information.
 
-* **November 8, 2023**  14 years since our last major release, we are very pleased to announced [the release of dacapo-23.11-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-chopin).
+* **November 8, 2023**  14 years since our last major release, we are very pleased to announce [the release of dacapo-23.11-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-chopin).
 
   The release includes:
   * New latency metrics, capturing user-experienced tail latencies for eight request-based workloads and jme, a rendering workload.

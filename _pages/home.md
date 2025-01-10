@@ -13,12 +13,19 @@ This benchmark suite is intended as a tool for Java benchmarking by the programm
 
 The initial release of the suite was the culmination of over five years work at eight institutions, as part of the DaCapo research project, which was funded by a National Science Foundation ITR Grant, CCR-0085792.   A further three years of development went into the 2009 release.  The third release took a further fourteen years. That work was been funded by the ANU, the Australian Research Council and a generous donation from Intel.  Since then, development has continued at [ANU with support from Oracle and Google](#currentsponsors).
 
-Our suite evolves to maintain its relevance. It is therefore essential that you **cite the version number** associated with the release in any use of the benchmark, and as a courtesy to the developers, we ask that you **please [cite](cite.txt) the paper** from OOPSLA 2006 describing the suite:
+Our suite evolves to maintain its relevance. It is therefore essential that you **cite the version number** associated with the release in any use of the benchmark, and as a courtesy to the developers, we ask that you **please [cite](cite.txt) the paper** from ASPLOS 2025 describing the Chopin suite:
 
-Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur, R., Diwan, A., Feinberg, D., Frampton, D., Guyer, S. Z., Hirzel, M., Hosking, A., Jump, M., Lee, H., Moss, J. E. B., Phansalkar, A., Stefanovic, D., VanDrunen, T., von Dincklage, D., and Wiedermann, B. **The DaCapo Benchmarks: Java Benchmarking Development and Analysis**, *OOPSLA '06: Proceedings of the 21st annual ACM SIGPLAN conference on Object-Oriented Programing, Systems, Languages, and Applications, (Portland, OR, USA, October 22-26, 2006)* ([pdf](assets/pdf/dacapo-oopsla-2006.pdf), [bibtex](cite.txt)).
+Stephen M. Blackburn, Zixian Cai, Rui Chen, Xi Yang, John Zhang, and John Zigman. 2025. **Rethinking Java Performance Analysis.** *In Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1 (ASPLOS ’25), March 30-April 3, 2025, Rotterdam, Netherlands.* ([pdf](assets/pdf/dacapo-asplos-2025-with-appendix.pdf), [bibtex](cite.txt)).
+
+
+If you use a version of the suite prior to DaCapo Chopin, you should instead cite the original DaCapo paper: 
+
+Blackburn, S. M., Garner, R., Hoffman, C., Khan, A. M., McKinley, K. S., Bentzur, R., Diwan, A., Feinberg, D., Frampton, D., Guyer, S. Z., Hirzel, M., Hosking, A., Jump, M., Lee, H., Moss, J. E. B., Phansalkar, A., Stefanovic, D., VanDrunen, T., von Dincklage, D., and Wiedermann, B. **The DaCapo Benchmarks: Java Benchmarking Development and Analysis**, *OOPSLA '06: Proceedings of the 21st annual ACM SIGPLAN conference on Object-Oriented Programing, Systems, Languages, and Applications, (Portland, OR, USA, October 22-26, 2006)* ([pdf](assets/pdf/dacapo-oopsla-2006.pdf), [bibtex](cite-06.txt)).
 
 # News
 
+* **December 20, 2024**  We are pleased to announce a second maintenance release, [dacapo-23.11-MR2-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-MR2-chopin).
+  The maintenance release contains minor fixes and updates to performance statistics.
 * **November 30, 2024**  We are very pleased to announce a maintenance release, [dacapo-23.11-MR1-chopin](https://github.com/dacapobench/dacapobench/releases/tag/v23.11-MR1-chopin).
 
   The maintenance release includes:

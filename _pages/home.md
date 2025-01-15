@@ -85,7 +85,11 @@ Bar bar
 # Publications
 -->
 
-# Sponsors
+# Sponsors and Acknowledgements
+
+## <a name="mirroring"></a> Mirroring
+
+The DaCapo project is very grateful to the [Programming Language and Compilation Technology Lab of the Institute of Software Chinese Academy of Sciences](https://mirror.iscas.ac.cn/plct/) for providing a mirror for the DaCapo benchmark downloads.
 
 ## <a name="currentsponsors"></a> Current Sponsors and Contributors
 
